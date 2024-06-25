@@ -38,7 +38,7 @@ basemap.addTo(map);
 
 ### Step 4: Fetching Data 📊
 
-We use D3.js to make an AJAX call and retrieve public park locations GeoJSON data.
+We use D3.js to make a call and retrieve public park locations GeoJSON data.
 
 ```javascript
 d3.json("https://data.sfgov.org/resource/94uf-amnx.geojson").then(function (data) {
