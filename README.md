@@ -183,6 +183,14 @@ legend.onAdd = function () {
   return div;
 };
 ```
+#### Explanation of Creating the Legend
+**Creating the Legend:**
+**Purpose:** The legend provides a visual guide to the colors and their corresponding park sizes.
+Steps:
+1. Positioning: The legend is positioned at the bottom right of the map.
+2. Creating Div: A div element is created to hold the legend content.
+3. Grades and Colors: We define the size ranges (grades) and their corresponding colors.
+4. Generating Legend Items: We loop through the grades and create a colored square for each grade, adding them to the div.
 
 #### Adding the Legend to the Map
 
