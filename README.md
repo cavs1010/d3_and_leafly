@@ -69,18 +69,18 @@ function styleInfo(feature) {
 ```
 **Explanation:**
 Purpose: The styleInfo function is used to define the visual appearance of each marker on the map based on the properties of the feature (in this case, each park).
-- Parameters:
-1. feature: Represents the individual GeoJSON feature being styled. Each feature contains properties (e.g., park size) that we use to determine the style.
+**Parameters:**
+- feature: Represents the individual GeoJSON feature being styled. Each feature contains properties (e.g., park size) that we use to determine the style.
 Returns: An object containing style properties.
-Style Properties:
 
-2. opacity: Sets the overall opacity of the marker.
-fillOpacity: Sets the opacity of the fill color inside the marker.
-fillColor: Determines the fill color of the marker using the getColor function.
-color: Sets the border color of the marker (black in this case).
-radius: Determines the size of the marker using the getRadius function.
-stroke: Enables the marker border.
-weight: Sets the width of the marker border.
+- Style Properties:
+1. `opacity`: Sets the overall opacity of the marker.
+2. `fillOpacity`: Sets the opacity of the fill color inside the marker.
+3. `fillColor`: Determines the fill color of the marker using the getColor function.
+4. `color`: Sets the border color of the marker (black in this case).
+5. `radius`: Determines the size of the marker using the getRadius function.
+6. `stroke`: Enables the marker border.
+7. `weight`: Sets the width of the marker border.
 
 #### Color Function
 
